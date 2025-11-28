@@ -1,0 +1,86 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ff9900; /* Warna oranye seperti nasi goreng */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+    color: #cc6600;
+    border-bottom: 2px solid #ffd499;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+ul, ol {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.steps ol li {
+    cursor: pointer; /* Menandakan langkah bisa diklik */
+    transition: background-color 0.3s;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.steps ol li.completed {
+    text-decoration: line-through;
+    color: #a0a0a0;
+    background-color: #e6ffe6; /* Latar belakang hijau muda untuk langkah selesai */
+}
+
+button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #cc7a00;
+}
+
+.status-box {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fffacd;
+    border: 1px solid #e0c562;
+    font-weight: bold;
+    color: #8b6e00;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #777;
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+}
